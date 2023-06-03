@@ -1,0 +1,13 @@
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 64px;
+  color: #5f5f5f;
+}
