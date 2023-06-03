@@ -1,0 +1,379 @@
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: "gothic";
+}
+
+.gnb {
+  position: fixed;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 36px;
+  background-color: rgba(#0d0d0d, 0.8);
+  font-size: 24px;
+  align-items: center;
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  backdrop-filter: blur(16px);
+  z-index: 1;
+}
+
+#footer {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+
+  width: 100%;
+  height: fit-content;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  gap: 120px;
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex: 1;
+}
+
+.profile {
+  flex: 1.5;
+  width: 0;
+}
+
+.activite,
+.career {
+  flex: 1;
+  width: 0;
+}
+
+.conclude {
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 14px;
+  color: #afafaf;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: fit-content;
+  height: fit-content;
+
+  flex: 1;
+  max-width: 540px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.career {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.activite {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footer_h2 {
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 80px;
+
+  width: 100%;
+
+  gap: 32px;
+
+  background: #161616;
+}
+
+.row1 {
+  display: flex;
+  gap: 12px;
+
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 14px;
+
+  color: #afafaf;
+}
+
+.title {
+  flex: 0 0 52px;
+  width: 0;
+  opacity: 40%;
+
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 14px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: rgba(93, 93, 93, 0.4);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 14px;
+}
+
+.flogo {
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 32px;
+  color: #5f5f5f;
+}
+
+.top {
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+  border: 1px solid #5f5f5f;
+  /* border-color: rgba(255, 255, 255, 0.3); */
+  transition: color 0.1s;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-icon {
+  color: #5f5f5f;
+}
+
+.top:hover {
+  border-color: #ffffff;
+}
+
+.top:hover .top-icon {
+  color: white;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  transition: color 0.1s;
+}
+
+#content {
+  padding: calc(40px + 94px) 80px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.content-header-title {
+  font-size: 48px;
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.content-info {
+  display: flex;
+  gap: 120px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  font-size: 20px;
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #8e8e8e;
+}
+
+.detail-info {
+  display: flex;
+  gap: 24px;
+  color: #ffffff;
+}
+
+.project-tag {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  font-size: 20px;
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #8e8e8e;
+}
+
+.tag-info {
+  display: flex;
+  gap: 24px;
+  color: #ffffff;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: rgba(93, 93, 93, 0.4);
+}
+
+.bold-divider {
+  width: 32px;
+  height: 4px;
+  background: #ffffff;
+}
+
+.section {
+  display: flex;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 720px;
+}
+
+.section-header-title {
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  font-size: 20px;
+}
+
+.section-header-desc {
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 100;
+  line-height: 160%;
+  font-size: 16px;
+  color: #acacac;
+}
+
+.section-bottom {
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section-right {
+  flex-direction: row;
+  gap: 80px;
+  justify-content: space-between;
+}
+.section-right > .section-header {
+  flex: 1;
+  width: 0;
+}
+
+.section-right > img {
+  flex: 1;
+  width: 0;
+  height: fit-content;
+}
+
+.section-left {
+  flex-direction: row-reverse;
+  gap: 80px;
+  justify-content: space-between;
+}
+
+.section-left > .section-header {
+  flex: 1;
+  width: 0;
+}
+
+.section-left > img {
+  flex: 1;
+  width: 0;
+  height: fit-content;
+}
+
+.section-bottom-fill > .section-header {
+  max-width: unset;
+  width: 100%;
+}
+
+.big-img > img {
+  max-width: 1000px;
+  width: 100%;
+  height: 592px;
+}
+
+.big-img {
+  align-items: flex-start;
+}
