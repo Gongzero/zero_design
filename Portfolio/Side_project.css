@@ -1,0 +1,114 @@
+.project_card_thumbnail {
+  width: 100%;
+  max-width: 620px;
+}
+
+button {
+  border: none;
+  background-color: unset;
+}
+
+.project_card:last-child .project_card_thumbnail {
+  opacity: 0.6;
+}
+
+.tag_group {
+  display: flex;
+  gap: 24px;
+}
+
+.tag {
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 200;
+  line-height: 160%;
+  font-size: 20px;
+  color: #8e8e8e;
+}
+
+.project_card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.project_card :hover .project-info {
+  opacity: 1;
+}
+
+.project-info {
+  transition: opacity 0.25s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px 32px 28px 24px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(16px);
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 180px 64px 160px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+.bottom-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-tag {
+  font-size: 14px;
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  color: #bbbbbb;
+  padding: 11px 12px 8px 12px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: fit-content;
+}
+
+.info-tag-group {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.project-info-title {
+  font-size: 36px;
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+}
+
+.project-info-caption {
+  font-size: 16px;
+  font-family: "NEXON Lv1 Gothic Low OTF";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: #b9afae;
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
